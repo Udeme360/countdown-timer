@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background: #eeee;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+  
+h1 {
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+}
+  
+#clockdiv {
+    font-size: 30px;
+    display: inline-block;
+    font-weight: 100;
+    color: #B31217;
+}
+  
+#clockdiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+  
+.days {
+    color: #02C8A7;
+}
+  
+.hours {
+    color: #DDDF00;
+}
+  
+.minutes {
+    color: #F56991;
+}
+  
+.seconds {
+    color: #1b18df;
+}
+
+#img{
+    align-items: center;
+}
+
+#span{
+    flex-direction: column;
+}
